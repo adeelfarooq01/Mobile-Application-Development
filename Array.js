@@ -1,0 +1,22 @@
+let str = "Hello, this is Adeel Farooq";
+
+console.log(str.length);
+console.log(str.trim());
+console.log(str.toUpperCase());
+console.log(str.toLowerCase());
+console.log(str.includes("Adeel"));
+console.log(str.startsWith("Hello"));
+console.log(str.endsWith("Farooq"));
+console.log(str.indexOf("is"));
+console.log(str.lastIndexOf("o"));
+console.log(str.charAt(7));
+console.log(str.substring(7, 17));
+console.log(str.slice(-6, -1));
+console.log(str.replace("Farooq", "Developer"));
+console.log(str.split(" "));
+console.log(str.repeat(2));
+console.log(str.concat(" Welcome!"));
+console.log(str.match(/o/g));
+console.log(str.search("Adeel"));
+console.log(str.padStart(40, "*"));
+console.log(str.padEnd(40, "*"));
